@@ -27,7 +27,7 @@ import CharacterCard from './CharacterCard';
 
              if(guess.length == state.word.length){
                  if(guess == state.word){
-                     console.log('yeah!')
+                     console.log('congrat!')
                      setState({...state, completed: true})
              }else{
                  console.log('reset, next attempt')
